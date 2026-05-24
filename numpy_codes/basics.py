@@ -44,13 +44,32 @@ def create_array():
     i = np.eye(3)
     print(i)
 
+def array_operations():
+    a = np.array([1,2,3,4])
+    print(a)
+    b = np.arange(5, 9, 1)
+    print(b)
+    c = a - b
+    print(c)
+    print(a + b)
+    print(a * b)
+    print(a / b)
+    print(a % b)
+    print(a ** b)
+    print(np.sqrt(a))
+    print(np.exp(a))
+    print(np.log(a))
+    print(np.sin(a))
+    print(np.cos(a))
+    print(np.tan(a))
     
     
 
 
 def main():
-    create_array()
+    # create_array()
     # array_example()
+    array_operations()
 
 
 
